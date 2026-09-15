@@ -1,24 +1,69 @@
+```html
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mis actividades</title>
+    <title>Mis Actividades</title>
+
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+
+        h1 {
+            color: #c8a2ff;
+        }
+
+        p {
+            color: #cccccc;
+        }
+
+        .actividad {
+            background-color: #1a1a1a;
+            border: 1px solid #444;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 25px auto;
+            max-width: 500px;
+        }
+
+        .boton {
+            display: inline-block;
+            background-color: #c8a2ff;
+            color: black;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            margin-top: 10px;
+        }
+
+        .boton:hover {
+            background-color: #ffffff;
+        }
+    </style>
 </head>
 
 <body>
 
-    <h1>Actividades de la clase</h1>
+    <h1>Actividades</h1>
 
-    <h2>Actividad 01 - Lección 01</h2>
+    <p>Actividades de la clase</p>
 
-    <p>
-        Página sobre curiosidades del universo.
-    </p>
+    <div class="actividad">
+        <h2>Actividad 01 - Lección 01</h2>
 
-    <a href="Actividad01-Leccion01/">
-        Ver Actividad 01
-    </a>
+        <p>Curiosidades del universo</p>
+
+        <a class="boton" href="Actividad01-Leccion01/">
+            Ver actividad
+        </a>
+    </div>
 
 </body>
 </html>
+```
